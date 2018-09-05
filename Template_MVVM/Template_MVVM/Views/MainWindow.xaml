@@ -1,0 +1,14 @@
+﻿<Window x:Class="Template_MVVM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Template_MVVM"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button  HorizontalAlignment="Left" Height="61" Margin="719,7,0,0" VerticalAlignment="Top" Width="59" Click="Button_Click" Background="Transparent" >
+            <Image Source="/Template_MVVM;component/Images/Windows_Close.png" Height="61" Width="59" RenderTransformOrigin="0.5,0.552"/>
+        </Button>
+    </Grid>
+</Window>
